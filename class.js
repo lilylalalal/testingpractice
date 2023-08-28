@@ -24,7 +24,7 @@ class Word {
         newWord += char;
       }
     }
-    return newWord;
+             return newWord;
   }
 
   pigLatin() {
@@ -46,3 +46,10 @@ class Word {
 }
 
 module.exports = { Word };
+
+
+worda = new Word("Bolluti")
+wordb = new Word("orey")
+
+console.log(worda.pigLatin())
+console.log(wordb.pigLatin())
